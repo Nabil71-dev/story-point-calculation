@@ -1,0 +1,14 @@
+{
+    "name":"Story point calculator",
+    "description":"Calculate story point by selecting nacessary input",
+    "version":"1.0",
+    "manifest_version":3,
+    "action":{
+        "default_title":"Story point calculator",
+        "default_popup":"index.html",
+        "default_icon":{
+            "16":"vite.svg",
+            "128":"vite.svg"
+        }
+    }
+}

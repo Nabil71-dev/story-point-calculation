@@ -1,4 +1,4 @@
-import DarkMoodSwitch from "../components/button/DarkMoodSwitch";
+import DarkModeSwitch from "../components/button/DarkModeSwitch";
 import StoryLayout from "../components/story-calculate/StoryLayout";
 
 const Layout = ({ toggleMode }) => {
@@ -6,7 +6,7 @@ const Layout = ({ toggleMode }) => {
         <>
             <div className="flex flex-col h-screen bg-gray-50 dark:bg-gray-900">
                 <div className="flex-none text-right">
-                    <DarkMoodSwitch click={toggleMode} />
+                    <DarkModeSwitch click={toggleMode} />
                 </div>
                 <div className="grow flex items-center justify-center flex-col">
                     <div className="w-full md:w-4/5 text-left">
