@@ -13,7 +13,7 @@ const ShowStoryPoints = ({ point }) => {
     }
 
     return (
-        <div className="bg-white dark:bg-gray-800 px-12 py-4 lg:py-12 rounded-lg shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
+        <div className="bg-white dark:bg-gray-800 px-12 py-4 mb-6 lg:py-12 rounded-lg shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
             <h2 className="text-xl font-bold mb-2 text-gray-800 dark:text-white">Story point is</h2>
 
             {
