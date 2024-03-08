@@ -5,18 +5,18 @@ function App() {
   const [dark, setDark] = useState(false);
 
   useEffect(() => {
-    const savedMode = localStorage.getItem("mode");
-    setDark(savedMode === "true");
+    const savedMode = localStorage?.getItem("mode") === "true";
+    setDark(savedMode);
   }, []);
 
-  const toggleMode = () => {
+  const handleToggleMode = () => {
     setDark(!dark);
-    localStorage.setItem('mode', !dark);
+    localStorage?.setItem('mode', !dark);
   }
 
   return (
     <div className={`${dark ? "dark" : ""}`}>
-      <Layout toggleMode={toggleMode}/>
+        <Layout handleToggleMode={handleToggleMode} />
     </div >
   )
 }
