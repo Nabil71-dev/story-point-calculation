@@ -1,4 +1,5 @@
 #### A JS project on top of React + Vite
+#### Manifest V3
 
 ## Get start
 ```bash
