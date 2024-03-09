@@ -17,7 +17,7 @@ const ShowStoryPoints = ({ point }) => {
             <h2 className="text-xl font-bold mb-2 text-gray-800 dark:text-white">Story point is</h2>
 
             {
-                point ? <p className={`text-3xl font-bold ${Color[point]}`}>
+                point ? <p className={`text-3xl font-bold ${Color[point] || "text-lime-500"}`}>
                     {point}
                 </p> : <p className="font-semibold text-red-600">
                     You must select all of the above
