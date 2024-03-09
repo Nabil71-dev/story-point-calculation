@@ -23,7 +23,7 @@ open chrome browser make sure that developer mode turned on in chrome extension 
 now click in extension and check
 ```
 ## Overview
-    Simple story calculation app based on all selected options by user it will check all the selected options respective value (values from story point matrix) and show the max value from all of the selected option as story point  
+Simple story calculation app based on all selected options by user it will check all the selected options respective value (values from story point matrix) and show the max value from all of the selected option as story point  
 
 ![Story point matrix](./src/assets/matrix.PNG)
 
@@ -36,6 +36,7 @@ now click in extension and check
     Dark mood 
     Responsive 
     Chrome extension (manifast.json) file added
+    Story point calculation
     
 
 ### Feature Extension 
